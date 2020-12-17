@@ -5,6 +5,10 @@ error_reporting(0);
 if (!file_exists('madeline.php')) {
 copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
+
+
+
+
 $settings =
 	[
 		'logger' => [
